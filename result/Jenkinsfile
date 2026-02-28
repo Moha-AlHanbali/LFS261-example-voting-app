@@ -1,5 +1,5 @@
 pipeline{
-  agen any
+  agent any
 
   tools {
     nodejs 'NodeJS 22.4.0'
