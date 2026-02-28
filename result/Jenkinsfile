@@ -12,6 +12,7 @@ pipeline{
       }
       steps{
         echo 'Compiling result app'
+	dir('result')
         sh 'npm i'
       }
     }
@@ -22,6 +23,7 @@ pipeline{
       }
       steps {
         echo 'Testing result app'
+	dir('result')
         sh 'npm i'
         sh 'npm test'
       }
