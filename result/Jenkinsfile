@@ -21,7 +21,7 @@ pipeline{
         changeset "**result/*"
       }
       steps {
-        echo "Testing result app'
+        echo 'Testing result app'
         sh 'npm i'
         sh 'npm test'
       }
