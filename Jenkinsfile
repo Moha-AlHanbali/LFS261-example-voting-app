@@ -197,8 +197,6 @@ pipeline {
         }
       }
     } 
-} 
-
 
     stage('vote-docker-package') {
       agent any
